@@ -18,3 +18,17 @@ img {
 	border-radius: 16px;
 	transition: border-radius 0.3s;
 }
+
+/* Custom styling for specific images */
+figure.irem-easter-egg {
+	text-align: center;
+	margin: 0 auto;
+}
+
+figure.irem-easter-egg img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+}
