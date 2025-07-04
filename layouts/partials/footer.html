@@ -4,7 +4,7 @@
     {{ partial "functions/get_hook.html" (dict "hook" "footer_start" "context" .) }}
 
     {{ if not .Site.Params.footerContent }}
-    <p>Crafted with ❤️ using
+    <p>Crafted with <a href="{{ "easter-egg/" | absURL }}" title="🌸 Easter Egg - Click to discover!">🌸</a> using
         <a href="https://gohugo.io/">Hugo</a>
         and
         <a href="https://github.com/tomfran/typo">tomfran/typo</a>
