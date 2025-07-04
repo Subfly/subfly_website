@@ -1,4 +1,4 @@
-baseURL = 'https://subfly.github.io/'
+baseURL = '/'
 languageCode = 'en-us'
 title = 'Subfly Dev Portfolio'
 theme = 'typo'
@@ -76,4 +76,4 @@ url = "https://www.reddit.com/user/SubflyDev/"
 
 [[params.social]]
 name = "email"
-url = "mailto:alitaha@subfly.dev"
+url = "mailto:alitaha@subfly.dev" 

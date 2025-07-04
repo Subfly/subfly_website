@@ -3,9 +3,10 @@ title: "YABA - Yet Another Bookmark App"
 date: 2025-01-27
 description: "A privacy-focused, offline-first bookmark manager with CloudKit synchronization"
 tags: ["bookmarks", "privacy", "offline-first", "cloudkit", "macos", "ios"]
+hidePagination: true
 ---
 
-![YABA Icon](/assets/images/yaba/yaba_icon.png)
+![YABA Icon](yaba_icon.png)
 
 ## What is YABA?
 
