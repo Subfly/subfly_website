@@ -1,0 +1,32 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Subfly Dev Portfolio'
+theme = 'typo'
+
+[params]
+theme = 'dark'
+homeIntroTitle = 'Hi! I am Subfly.'
+homeIntroContent = '''
+Welcome to my minimal developer portfolio and blog. Here, I showcase my apps and share my thoughts on software, design, and technology.
+'''
+colorPalette = 'default'
+
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "blog"
+url = "/posts"
+
+[[params.menu]]
+name = "yaba"
+url = "/posts/yaba"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/subfly"
+
+[[params.social]]
+name = "linkedin"
+url = "https://linkedin.com/in/subfly"

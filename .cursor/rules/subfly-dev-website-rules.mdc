@@ -1,0 +1,21 @@
+---
+description: Rules for Subfly Dev website. It's my own developer portfolio + blog posts. A website made with Hugo.
+globs: 
+alwaysApply: true
+---
+
+- This is my developer portfolio. I am going to showcase my apps and blog posts in here.
+- The website should be as minimalistic as possible. The only thing that looks colorful will be addition of images.
+- The images should have some smooth corner radius.
+- Never add styles to anything. All the buttons that going to be added to the website should change color when cursor is pointed. The clickable texts should be underlined in order to make them feel like clickable.
+- When a clickable area is pointed with cursor, randomly select between Apple's Blue color and Android's Green color.
+- I can also use underline text styling in my blog writings. So, there should be clever way to differentiate a button with underlined text.
+- The website should be built with Hugo. 
+- There should be a button to switch the theme to light/dark. The default should be dark.
+- The background should be a soft dark in dark mode, and a light/creamy white in light mode. Likewise, text is also dark in light mode and light in dark mode.
+- All the things such as buttons and theme switch should be animated.
+- All the images should blend in good with the website.
+- You should use Typo Theme (https://github.com/tomfran/typo?tab=readme-ov-file). After installation and in each request, you should check the rules of the website and override some of them with the rules I gave above, to ensure consistency.
+- The provided theme uses Simple Icons (https://github.com/simple-icons/simple-icons). Never use any other icon type.
+- You should use QuickSand font in everywhere (https://fonts.google.com/specimen/Quicksand)
+- Never edit anything under theme/

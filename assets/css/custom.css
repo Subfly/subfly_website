@@ -1,0 +1,20 @@
+html,
+body {
+	font-family: "Quicksand", sans-serif;
+	transition: background 0.3s, color 0.3s;
+}
+
+body[data-theme="dark"] {
+	background: #181a1b; /* soft dark */
+	color: #f5f6fa; /* light text */
+}
+
+body[data-theme="light"] {
+	background: #f8f6f0; /* creamy white */
+	color: #232323; /* dark text */
+}
+
+img {
+	border-radius: 16px;
+	transition: border-radius 0.3s;
+}
