@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://subfly.github.io/subfly_website/'
 languageCode = 'en-us'
 title = 'Subfly Dev Portfolio'
 theme = 'typo'
