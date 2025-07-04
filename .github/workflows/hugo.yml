@@ -54,6 +54,7 @@ jobs:
           hugo \
             --gc \
             --minify \
+            --baseURL "${{ steps.pages.outputs.base_url }}/" \
             --config hugo.toml
           echo "Build complete. Generated files:"
           ls -la public/
