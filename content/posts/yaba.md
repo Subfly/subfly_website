@@ -100,3 +100,5 @@ Whether you're a privacy-conscious individual, a developer who values open sourc
 *YABA - Your bookmarks, your data, your control.*
 
 **Support**: [alitaha@subfly.dev](mailto:alitaha@subfly.dev) 
+
+[Read YABA Privacy Policy](/subfly_website/yaba-privacy-policy/) 
