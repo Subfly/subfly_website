@@ -41,6 +41,7 @@ I focus on **all types of mobile development**, with specialized expertise in **
 '''
 paginationSize = 100
 colorPalette = 'default'
+faviconPath = ''
 
 [[params.menu]]
 name = "home"
