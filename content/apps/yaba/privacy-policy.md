@@ -1,6 +1,6 @@
 ---
 title: "YABA Privacy Policy"
-date: 2025-01-27
+date: 2025-07-06
 hidePagination: true
 hideToc: true
 hideSummary: true

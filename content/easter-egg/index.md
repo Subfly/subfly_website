@@ -1,6 +1,6 @@
 ---
 title: "🌸 The Lotus Flower Easter Egg"
-date: "2024-12-19"
+date: "2022-09-11"
 summary: "A special story about love, domains, and hidden treasures"
 description: "The story behind the lotus flower in the footer and why it's here"
 toc: false

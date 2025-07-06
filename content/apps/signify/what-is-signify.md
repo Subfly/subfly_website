@@ -1,5 +1,5 @@
 ---
-title: "Signify - ASL Translation App"
+title: "Signify"
 date: 2022-05-01
 description: "A bi-directional translation application that translates ASL to Text and Voice Input to ASL with real-time video calling"
 tags: ["flutter", "ai", "ml", "asl", "translation", "firebase", "webrtc", "pytorch"]
@@ -57,14 +57,6 @@ Signify is a bi-directional translation application that bridges the communicati
 - **Flask** - Python web framework
 - **PyTorch** - Machine learning framework
 - **Python** - Server-side processing and AI models
-
-## Future Enhancements
-
-- [ ] Support for more sign languages
-- [ ] Improved accuracy with larger datasets
-- [ ] Offline translation capabilities
-- [ ] Integration with educational platforms
-- [ ] Community features for ASL learners
 
 ---
 

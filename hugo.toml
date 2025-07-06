@@ -1,4 +1,4 @@
-baseURL = 'https://subfly.github.io/subfly_website/'
+baseURL = 'https://subfly.github.io/'
 languageCode = 'en-us'
 title = 'Subfly Dev Portfolio'
 theme = 'typo'
@@ -48,12 +48,12 @@ name = "home"
 url = ""
 
 [[params.menu]]
-name = "blog"
+name = "posts"
 url = "posts"
 
 [[params.menu]]
-name = "yaba"
-url = "posts/yaba"
+name = "apps"
+url = "apps"
 
 [[params.social]]
 name = "github"

@@ -1,6 +1,6 @@
 ---
-title: "YABA - Yet Another Bookmark App"
-date: 2025-01-27
+title: "What is YABA?"
+date: 2025-07-06
 description: "A privacy-focused, offline-first bookmark manager with CloudKit synchronization"
 tags: ["bookmarks", "privacy", "offline-first", "cloudkit", "macos", "ios"]
 hidePagination: true
@@ -99,6 +99,10 @@ Whether you're a privacy-conscious individual, a developer who values open sourc
 
 *YABA - Your bookmarks, your data, your control.*
 
-**Support**: [alitaha@subfly.dev](mailto:alitaha@subfly.dev) 
+**Support**: [alitaha@subfly.dev](mailto:alitaha@subfly.dev)
 
-[Read YABA Privacy Policy](/subfly_website/yaba-privacy-policy/) 
+[Privacy Policy](/apps/yaba/privacy-policy/)
+
+[Terms of Service](/apps/yaba/terms-of-service/) 
+
+[EULA](/apps/yaba/eula/) 
