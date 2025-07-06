@@ -33,99 +33,101 @@ figure.irem-easter-egg img {
 	margin-top: 2rem;
 }
 
-/* Responsive overrides for mobile */
+/* Responsive overrides for mobile - forced with !important */
 
 @media (max-width: 640px) {
 	body {
-		max-width: 100vw;
-		padding-left: 0.5em;
-		padding-right: 0.5em;
-		font-size: 16px;
-	}
-	.header {
-		padding-top: 0.5em;
-		margin-bottom: 1em;
-	}
-	.header-title {
-		font-size: 1.4em;
-		word-break: break-word;
-		text-align: left;
-	}
-	.header-menu {
-		flex-direction: column;
-		align-items: flex-start;
-		gap: 0.2em;
-		padding-top: 0.5em;
-	}
-	.header-menu p {
-		margin: 0.2em 0;
-		font-size: 1em;
-		padding: 0.2em 0.4em;
-		min-width: 44px;
-		min-height: 44px;
+		max-width: 100vw !important;
+		padding-left: 0.5em !important;
+		padding-right: 0.5em !important;
+		font-size: 16px !important;
 	}
 	.content {
 		min-height: unset !important;
-		padding-bottom: 2em;
+		padding-bottom: 2em !important;
+		width: 100vw !important;
+		max-width: 100vw !important;
+	}
+	.header {
+		padding-top: 0.5em !important;
+		margin-bottom: 1em !important;
+	}
+	.header-title {
+		font-size: 1.4em !important;
+		word-break: break-word !important;
+		text-align: left !important;
+	}
+	.header-menu {
+		flex-direction: column !important;
+		align-items: flex-start !important;
+		gap: 0.2em !important;
+		padding-top: 0.5em !important;
+	}
+	.header-menu p {
+		margin: 0.2em 0 !important;
+		font-size: 1em !important;
+		padding: 0.2em 0.4em !important;
+		min-width: 44px !important;
+		min-height: 44px !important;
 	}
 	.single-content {
-		margin-bottom: 2em;
+		margin-bottom: 2em !important;
 	}
 	footer {
-		font-size: 0.95em;
-		flex-direction: column;
-		padding: 0.5em 0;
-		max-height: unset;
+		font-size: 0.95em !important;
+		flex-direction: column !important;
+		padding: 0.5em 0 !important;
+		max-height: unset !important;
 	}
 	.post-line,
 	.tag-line {
-		flex-direction: column;
-		align-items: flex-start;
-		gap: 0.2em;
+		flex-direction: column !important;
+		align-items: flex-start !important;
+		gap: 0.2em !important;
 	}
 	.line-date {
-		min-width: unset;
-		max-width: unset;
-		text-align: left;
-		padding-right: 0;
-		font-size: 0.95em;
+		min-width: unset !important;
+		max-width: unset !important;
+		text-align: left !important;
+		padding-right: 0 !important;
+		font-size: 0.95em !important;
 	}
 	.list-container {
-		padding-bottom: 1.5em;
+		padding-bottom: 1.5em !important;
 	}
 	.pagination {
-		flex-direction: column;
-		gap: 0.5em;
+		flex-direction: column !important;
+		gap: 0.5em !important;
 	}
 	.single-subsummary {
-		flex-direction: column;
-		align-items: flex-start;
-		gap: 0.3em;
+		flex-direction: column !important;
+		align-items: flex-start !important;
+		gap: 0.3em !important;
 	}
 	.single-subsummary img {
-		margin-right: 0;
-		margin-bottom: 0.5em;
+		margin-right: 0 !important;
+		margin-bottom: 0.5em !important;
 	}
 	.img-full img {
 		width: 100vw !important;
 		max-width: 100vw !important;
 	}
 	table {
-		font-size: 0.95em;
-		width: 100%;
-		display: block;
-		overflow-x: auto;
+		font-size: 0.95em !important;
+		width: 100% !important;
+		display: block !important;
+		overflow-x: auto !important;
 	}
 	th,
 	td {
-		padding: 0.4em;
+		padding: 0.4em !important;
 	}
 	.toc {
-		font-size: 0.95em;
+		font-size: 0.95em !important;
 	}
 	.breadcrumbs {
-		font-size: 0.95em;
-		flex-wrap: wrap;
-		gap: 0.1em;
+		font-size: 0.95em !important;
+		flex-wrap: wrap !important;
+		gap: 0.1em !important;
 	}
 }
