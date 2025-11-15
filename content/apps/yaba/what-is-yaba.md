@@ -1,8 +1,8 @@
 ---
 title: "What is YABA?"
 date: 2025-07-06
-description: "A privacy-focused, offline-first bookmark manager with CloudKit synchronization"
-tags: ["bookmarks", "privacy", "offline-first", "cloudkit", "macos", "ios"]
+description: "A privacy-focused, offline-first bookmark manager with private mDNS synchronization"
+tags: ["bookmarks", "privacy", "offline-first", "mdns", "macos", "ios"]
 hidePagination: true
 ---
 
@@ -21,10 +21,10 @@ YABA is a privacy-focused, offline-first bookmark manager designed to help you o
 - **Open source**: Full transparency with publicly available source code
 
 ### 📱 Cross-Platform Sync
-- **CloudKit integration**: Seamless synchronization using Apple's CloudKit
-- **Encrypted storage**: All sync data is encrypted and stored in your personal iCloud account
-- **No server access**: We cannot access, read, or recover your CloudKit data
-- **Automatic sync**: Changes sync automatically across your devices
+- **Zero-configuration sync**: Devices connect automatically over Bonjour / mDNS
+- **Private network only**: Sync happens on your local Wi-Fi or hotspot, never the public internet
+- **End-to-end privacy**: Data stays within your personal network and never touches external servers
+- **Automatic discovery**: Devices find each other and sync without manual setup
 
 ### 🗂️ Powerful Organization
 - **Collections & Tags**: Organize bookmarks with folders and tags
@@ -51,17 +51,17 @@ YABA is built on the principle that your data belongs to you. Here's how we prot
 
 - **Zero data collection**: We don't collect any personal information
 - **Local storage**: All data stays on your device
-- **CloudKit only**: Sync data is stored in your personal iCloud account
+- **Private sync mesh**: Devices discover each other over Bonjour / mDNS and exchange data directly
 - **No server access**: We cannot access your data under any circumstances
 - **Open source**: You can verify our privacy claims by reviewing the code
 
 ## Getting Started
 
 1. **Download**: Install YABA from the App Store (coming soon)
-2. **Sign in**: Use your Apple ID to enable CloudKit sync
+2. **Connect**: Ensure your devices share the same Wi-Fi or personal hotspot
 3. **Import**: Import your existing bookmarks
 4. **Organize**: Create collections and tags to organize your bookmarks
-5. **Sync**: Your bookmarks will automatically sync across devices
+5. **Sync**: Your bookmarks will sync across devices using the local mesh
 
 ## Support
 
@@ -73,10 +73,10 @@ Need help with YABA? We're here to assist you:
 
 ## Open Source
 
-YABA is open source software released under the MIT License. This means:
+YABA is open source software released under the GNU AGPL-3.0 License. This means:
 
 - **Transparency**: You can review every line of code
-- **Freedom**: You can modify and distribute the software
+- **Freedom**: You can modify and distribute the software under the same copyleft terms
 - **Community**: Contributions and feedback are welcome
 - **Security**: Open source allows for community security audits
 
@@ -91,7 +91,7 @@ YABA is open source software released under the MIT License. This means:
 
 ## Why YABA?
 
-In a world where data privacy is increasingly important, YABA provides a secure, private alternative to cloud-based bookmark managers. By keeping your data local and using Apple's secure CloudKit for synchronization, you get the convenience of cloud sync without compromising your privacy.
+In a world where data privacy is increasingly important, YABA provides a secure, private alternative to cloud-based bookmark managers. By keeping your data local and using a Bonjour / mDNS powered sync mesh, you get the convenience of multi-device sync without compromising your privacy.
 
 Whether you're a privacy-conscious individual, a developer who values open source software, or simply someone who wants better control over their digital life, YABA is designed for you.
 
